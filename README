@@ -1,0 +1,24 @@
+Features
+-List the products. Home page.
+-Detail page (lookup by product ID). Add to cart
+-Checkout page.
+
+DB Design
+
+Product
+-id
+-name
+-desc
+-Orders
+    
+Order
+-id
+-date
+-Products
+
+n:m many to many
+
+OrderProduct
+-OrderId
+-ProductId
+

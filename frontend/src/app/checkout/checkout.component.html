@@ -1,0 +1,7 @@
+<p>check-out works!</p>
+<div *ngFor="let product of products">
+    <h3>
+        {{ product.name }}
+    </h3>
+</div>
+<button mat-flat-button color="accent" (click)="buy()">Buy</button>
