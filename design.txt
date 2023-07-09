@@ -1,0 +1,23 @@
+DB Schema
+
+Product
+-id (int, string, uuid)
+-name
+-description
+
+Order
+-id
+-date
+
+Product <-> Order
+Each order can have m products.
+Each product can be bought in n orders.
+
+Many to Many
+
+Order n:m Product
+
+OrderProduct
+-OrderId
+-ProductId
+
